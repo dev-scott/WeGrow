@@ -1,12 +1,26 @@
 import Image from "next/image"
+import CallToAction from "./_components/call-to-action"
+import DashboardSnippet from "./_components/dashboard-snippet"
+import dynamic from "next/dynamic"
+
+const PricingSection = dynamic(
+    () =>
+      import("./_components/pricing").then(
+        (component) => component.PricingSection,
+      ),
+    { ssr: true },
+  )
 
 export default function Home() {
     return (
-        <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-            <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-           
-            </main>
-            
-        </div>
+        <main className="md:px-10 py-20 flex flex-col gap-36">
+            <div>
+                <CallToAction/>
+                <DashboardSnippet />
+
+            </div>
+            <PricingSection />
+
+        </main>
     )
 }

@@ -28,7 +28,9 @@ export default function RootLayout({
     return (
         <ClerkProvider>
             <html lang="en" suppressHydrationWarning>
-                <body className={`${geistSans.variable} ${geistMono.variable} bg-black`}>
+                <body
+                    className={`${geistSans.variable} ${geistMono.variable} bg-black`}
+                >
                     <ThemeProvider
                         attribute="class"
                         defaultTheme="dark"
