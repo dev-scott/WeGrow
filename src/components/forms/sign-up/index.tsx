@@ -56,7 +56,7 @@ const SignUpForm = (props: Props) => {
             ) : (
                 <Button
                     type="button"
-                    className="rounded-2xl"
+                    className="rounded-2xl bg-themePrimary hover:bg-themePrimary text-themeTextWhite"
                     onClick={() =>
                         onGenerateCode(
                             getValues("email"),
@@ -64,7 +64,7 @@ const SignUpForm = (props: Props) => {
                         )
                     }
                 >
-                    <Loader loading={false}>Generate Code</Loader>
+                    <Loader loading={false} className="text-themeTextWhite">Generate Code</Loader>
                 </Button>
             )}
         </form>

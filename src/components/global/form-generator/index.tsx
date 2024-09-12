@@ -39,7 +39,7 @@ export const FormGenerator = ({
                         id={`input-${label}`}
                         type={type}
                         placeholder={placeholder}
-                        className="bg-themeBlack border-themeGray text-themeTextGray"
+                        className="bg-themeTextWhite border-themeGray text-themeTextBlack"
                         {...register(name)}
                     />
                     <ErrorMessage
@@ -95,7 +95,7 @@ export const FormGenerator = ({
                 >
                     {label && label}
                     <Textarea
-                        className="bg-themeBlack border-themeGray text-themeTextGray"
+                        className="bg-themeTextWhite border-themeGray text-themeTextBlack"
                         id={`input-${label}`}
                         placeholder={placeholder}
                         {...register(name)}

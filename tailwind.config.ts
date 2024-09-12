@@ -20,14 +20,19 @@ const config = {
         backgroundImage: {
             "radial-gradient":
                 "radial-gradient(circle at 50% 40%, white, black)",
+                    'hero-pattern': "url('/hero-pattern.jpg')",
+                    'dev-scott': "url('/dev-scott.jpg')",
+                  
         },
         extend: {
             colors: {
                 themeBlack: "#09090B",
                 themeGray: "#27272A",
+                themePrimary: "#414535",
                 themeDarkGray: "#27272A",
                 themeTextGray: "#B4B0AE",
-                themeTextWhite: "#F7ECE9",
+                themeTextWhite: "#FFFFFF",
+                themeTextBlack: "#09090B",
                 border: "hsl(var(--border))",
                 input: "hsl(var(--input))",
                 ring: "hsl(var(--ring))",
