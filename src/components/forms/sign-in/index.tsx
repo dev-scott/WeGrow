@@ -24,8 +24,13 @@ const SignInForm = (props: Props) => {
                     errors={errors}
                 />
             ))}
-            <Button type="submit" className="rounded-2xl bg-themePrimary hover:bg-themePrimary text-themeTextWhite">
-                <Loader loading={isPending} className="text-themeTextWhite ">Sign In with Email</Loader>
+            <Button
+                type="submit"
+                className="rounded-2xl bg-themePrimary hover:bg-themePrimary text-themeTextWhite"
+            >
+                <Loader loading={isPending} className="text-themeTextWhite ">
+                    Sign In with Email
+                </Loader>
             </Button>
         </form>
     )

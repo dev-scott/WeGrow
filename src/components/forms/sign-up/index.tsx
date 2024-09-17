@@ -64,7 +64,9 @@ const SignUpForm = (props: Props) => {
                         )
                     }
                 >
-                    <Loader loading={false} className="text-themeTextWhite">Generate Code</Loader>
+                    <Loader loading={false} className="text-themeTextWhite">
+                        Generate Code
+                    </Loader>
                 </Button>
             )}
         </form>

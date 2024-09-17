@@ -21,14 +21,14 @@ const AuthLayout = async ({ children }: Props) => {
                     container="bg-red-500 rounded-5 bg-cover bg-center flex flex-col w-1/2 h-full items-center relative "
                 >
                     <Image
-                    priority
-                    src="/dev-scott.jpg"
-                    className="opacity-[0.95]"
-                    alt="dev-scott"
-                    sizes="100vw"
-                    fill
-                    objectFit="cover"
-                />
+                        priority
+                        src="/dev-scott.jpg"
+                        className="opacity-[0.95]"
+                        alt="dev-scott"
+                        sizes="100vw"
+                        fill
+                        objectFit="cover"
+                    />
                 </BackdropGradient>
 
                 <BackdropGradient

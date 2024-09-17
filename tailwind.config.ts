@@ -20,9 +20,8 @@ const config = {
         backgroundImage: {
             "radial-gradient":
                 "radial-gradient(circle at 50% 40%, white, black)",
-                    'hero-pattern': "url('/hero-pattern.jpg')",
-                    'dev-scott': "url('/dev-scott.jpg')",
-                  
+            "hero-pattern": "url('/hero-pattern.jpg')",
+            "dev-scott": "url('/dev-scott.jpg')",
         },
         extend: {
             colors: {
